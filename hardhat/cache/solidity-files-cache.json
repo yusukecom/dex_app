@@ -1,0 +1,1112 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/DexFactory.sol": {
+      "lastModificationDate": 1683542093433,
+      "contentHash": "59faf09ed112860c028fcee76929a479",
+      "sourceName": "contracts/DexFactory.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DexPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexFactory"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/DexPool.sol": {
+      "lastModificationDate": 1684992714258,
+      "contentHash": "6e782f20ccd02826a9cb88e4a992066d",
+      "sourceName": "contracts/DexPool.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/Math.sol",
+        "./interfaces/IERC20.sol",
+        "./DexERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "DexPool"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1683440909245,
+      "contentHash": "4bf49afc40d4812b2aaa9a6fe1268ad8",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/test/TokenTest.sol": {
+      "lastModificationDate": 1683515333972,
+      "contentHash": "44203d01865d0c5996d3b7b439b80d25",
+      "sourceName": "contracts/test/TokenTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "TokenTest"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1683551508119,
+      "contentHash": "1df6c8d984701a32cfa82448dd89c0de",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/test/MathTest.sol": {
+      "lastModificationDate": 1683514145434,
+      "contentHash": "62af4d422a23a17d731b41d2555e9dca",
+      "sourceName": "contracts/test/MathTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "MathTest"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/DexERC20.sol": {
+      "lastModificationDate": 1683595421196,
+      "contentHash": "c2802e6f9bd0b7531216fe0902f1727c",
+      "sourceName": "contracts/DexERC20.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexERC20"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/DexRouter.sol": {
+      "lastModificationDate": 1685248253207,
+      "contentHash": "9cbcd482493e7cc39ef90914ead787bb",
+      "sourceName": "contracts/DexRouter.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/DexLibrary.sol",
+        "./DexFactory.sol",
+        "./interfaces/IERC20.sol",
+        "./DexPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexRouter"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/libraries/DexLibrary.sol": {
+      "lastModificationDate": 1685265596325,
+      "contentHash": "c67545c61cd8cac2aa2b6a667d4baeba",
+      "sourceName": "contracts/libraries/DexLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexLibrary"
+      ]
+    },
+    "/Users/yusuke/src/DEX_CONTRACT/contracts/test/DexLibraryTest.sol": {
+      "lastModificationDate": 1685266844888,
+      "contentHash": "80658906e95528904194daeeab2d00d5",
+      "sourceName": "contracts/test/DexLibraryTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/DexLibrary.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexLibraryTest"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/DexERC20.sol": {
+      "lastModificationDate": 1685358226982,
+      "contentHash": "c2802e6f9bd0b7531216fe0902f1727c",
+      "sourceName": "contracts/DexERC20.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexERC20"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1685358226983,
+      "contentHash": "4bf49afc40d4812b2aaa9a6fe1268ad8",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/DexPool.sol": {
+      "lastModificationDate": 1685358226976,
+      "contentHash": "6e782f20ccd02826a9cb88e4a992066d",
+      "sourceName": "contracts/DexPool.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/Math.sol",
+        "./interfaces/IERC20.sol",
+        "./DexERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "DexPool"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1685358226980,
+      "contentHash": "1df6c8d984701a32cfa82448dd89c0de",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/DexRouter.sol": {
+      "lastModificationDate": 1685358226981,
+      "contentHash": "9cbcd482493e7cc39ef90914ead787bb",
+      "sourceName": "contracts/DexRouter.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/DexLibrary.sol",
+        "./DexFactory.sol",
+        "./interfaces/IERC20.sol",
+        "./DexPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexRouter"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/libraries/DexLibrary.sol": {
+      "lastModificationDate": 1685358226980,
+      "contentHash": "c67545c61cd8cac2aa2b6a667d4baeba",
+      "sourceName": "contracts/libraries/DexLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexLibrary"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/DexFactory.sol": {
+      "lastModificationDate": 1685358226982,
+      "contentHash": "59faf09ed112860c028fcee76929a479",
+      "sourceName": "contracts/DexFactory.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DexPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexFactory"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/test/TokenTest.sol": {
+      "lastModificationDate": 1685358226978,
+      "contentHash": "44203d01865d0c5996d3b7b439b80d25",
+      "sourceName": "contracts/test/TokenTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "TokenTest"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/test/DexLibraryTest.sol": {
+      "lastModificationDate": 1685358226978,
+      "contentHash": "80658906e95528904194daeeab2d00d5",
+      "sourceName": "contracts/test/DexLibraryTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/DexLibrary.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexLibraryTest"
+      ]
+    },
+    "/Users/yusuke/src/dex_app1/hardhat/contracts/test/MathTest.sol": {
+      "lastModificationDate": 1685358226979,
+      "contentHash": "62af4d422a23a17d731b41d2555e9dca",
+      "sourceName": "contracts/test/MathTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "MathTest"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/DexERC20.sol": {
+      "lastModificationDate": 1686038862834,
+      "contentHash": "c2802e6f9bd0b7531216fe0902f1727c",
+      "sourceName": "contracts/DexERC20.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexERC20"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1686038862839,
+      "contentHash": "4bf49afc40d4812b2aaa9a6fe1268ad8",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/DexPool.sol": {
+      "lastModificationDate": 1686038862836,
+      "contentHash": "6e782f20ccd02826a9cb88e4a992066d",
+      "sourceName": "contracts/DexPool.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/Math.sol",
+        "./interfaces/IERC20.sol",
+        "./DexERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "DexPool"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1686038862842,
+      "contentHash": "1df6c8d984701a32cfa82448dd89c0de",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/DexRouter.sol": {
+      "lastModificationDate": 1686038862837,
+      "contentHash": "9cbcd482493e7cc39ef90914ead787bb",
+      "sourceName": "contracts/DexRouter.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/DexLibrary.sol",
+        "./DexFactory.sol",
+        "./interfaces/IERC20.sol",
+        "./DexPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexRouter"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/libraries/DexLibrary.sol": {
+      "lastModificationDate": 1686038862841,
+      "contentHash": "c67545c61cd8cac2aa2b6a667d4baeba",
+      "sourceName": "contracts/libraries/DexLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexLibrary"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/DexFactory.sol": {
+      "lastModificationDate": 1686038862835,
+      "contentHash": "59faf09ed112860c028fcee76929a479",
+      "sourceName": "contracts/DexFactory.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DexPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexFactory"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/test/TokenTest.sol": {
+      "lastModificationDate": 1686038862846,
+      "contentHash": "44203d01865d0c5996d3b7b439b80d25",
+      "sourceName": "contracts/test/TokenTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "TokenTest"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/test/DexLibraryTest.sol": {
+      "lastModificationDate": 1686038862844,
+      "contentHash": "80658906e95528904194daeeab2d00d5",
+      "sourceName": "contracts/test/DexLibraryTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/DexLibrary.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "DexLibraryTest"
+      ]
+    },
+    "/Users/yusuke/src/dex_app/hardhat/contracts/test/MathTest.sol": {
+      "lastModificationDate": 1686038862845,
+      "contentHash": "62af4d422a23a17d731b41d2555e9dca",
+      "sourceName": "contracts/test/MathTest.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "MathTest"
+      ]
+    }
+  }
+}
